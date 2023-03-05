@@ -36,7 +36,7 @@ Alias (u,v), (i,j,jj), (h,k), (l,al);
 *-------------------------------------------------------------------------------
 * 2. Data processing -----------------------------------------------------------
 * 2.1. Loading data from SAM (excel file) --------------------------------------
-$call "gdxxrw 2018SAM(fnlbalanced).xlsx output=2018SAM(fnlbalanced).gdx par=SAM rng=SAM!A1:AE31 cdim=1 rdim=1 par=additional rng=FirmData!A1:X15 cdim=1 rdim=1 par=CO2_factor rng=CO2_factor!A1:E2 cdim=1 rdim=0 par=specificTFP rng=specificTFP!A1:U2 cdim=1 rdim=0  par=frisch rng=frisch!A1:B2 cdim=1 rdim=0  par=LESelas rng=LESelas!A1:U2 cdim=1 rdim=0 ";
+$call "gdxxrw 2018SAM(fnlbalanced).xlsx output=2018SAM(fnlbalanced).gdx par=SAM rng=SAM!A1:AE31 cdim=1 rdim=1 par=additional rng=FirmData!A1:X15 cdim=1 rdim=1 par=CO2_factor rng=CO2_factor!A1:E2 cdim=1 rdim=0 par=specificTFP rng=specifi  !A1:U2 cdim=1 rdim=0  par=frisch rng=frisch!A1:B2 cdim=1 rdim=0  par=LESelas rng=LESelas!A1:U2 cdim=1 rdim=0 ";
 Parameter       SAM(u,v)              Social accounting matrix
                 additional(add,enc)   Additional firm information
                 LESelas(i)            Elasticity in LES utility function
